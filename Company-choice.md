@@ -19,3 +19,9 @@ de servicio de la empresa.
 El reto del *Milestone Map* que más ganas tengo de construir es el **Pipeline de Selección Asistido por IA**. Específicamente, implementar un **sistema RAG (Retrieval-Augmented Generation) sobre la base de datos 
 de candidatos** combinado con un **scoring y ranking automático de CVs con explicabilidad**. Construir una solución que busque perfiles con criterios específicos (por ejemplo, "experiencia en ventas 
 B2B y nivel C1 de inglés") y reduzca drásticamente las horas manuales de criba transformará el área operativa principal de la empresa.
+
+## ## Mi idea de Agente de IA
+Para solucionar el reto del pipeline de selección, el agente de IA funcionaría como un asistente autónomo para los consultores de selección de Nexova. 
+* **Qué haría:** Recibiría los requisitos de una nueva vacante en lenguaje natural, realizaría una búsqueda semántica (RAG) en la base de datos de candidatos históricos y actuales, analizaría cada currículum frente al perfil solicitado y generaría un *ranking* automatizado de los mejores perfiles acompañado de una justificación clara de por qué encajan.
+* **Qué información necesitaría:** El documento de descripción del puesto (briefing del cliente), la base de datos vectorial de los CVs de los candidatos y los criterios de evaluación por competencias.
+* **Qué produciría o desencadenaría:** Generaría una terna estructurada de candidatos recomendados con sus puntuaciones y explicaciones para el consultor, y desencadenaría de manera automática borradores de correos personalizados para contactar a los candidatos seleccionados para una entrevista inicial.
